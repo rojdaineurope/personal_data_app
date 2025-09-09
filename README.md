@@ -21,7 +21,8 @@ A JavaFX desktop application to manage personal data inputs efficiently.
 A JavaFX application for managing personal data inputs.Apache NetBeans
 
 ## Screenshots
-## Screenshots
+
+![Screenshot 2](Screenshot%202025-09-10%20003219.png)
 ![Personal Data App Screenshot](Screenshot%202025-09-10%20003132.png)
 
-![Personal Data App Screenshot](screenshot1.png)
+
