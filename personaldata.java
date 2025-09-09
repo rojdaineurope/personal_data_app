@@ -12,9 +12,35 @@ public class personaldata extends javax.swing.JFrame {
     /**
      * Creates new form personaldata
      */
-    public personaldata() {
-        initComponents();
-    }
+   
+        public personaldata() {
+    initComponents();
+
+  
+    Add_Button.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            String name = Name.getText();
+            String surname = Surname.getText();
+            String sex = Female.isSelected() ? "Female" : (Male.isSelected() ? "Male" : "Not selected");
+            String adress = Adress.getText();
+
+   
+            TextArea.append("Name: " + name + "\n");
+            TextArea.append("Surname: " + surname + "\n");
+            TextArea.append("Sex: " + sex + "\n");
+            TextArea.append("Adress: " + adress + "\n");
+            TextArea.append("----------------------\n");
+
+           
+            Name.setText("");
+            Surname.setText("");
+            Adress.setText("");
+            buttonGroup1.clearSelection();
+        }
+    });
+}
+
+    
 
     /**
      * This method is called from within the constructor to initialize the form.
