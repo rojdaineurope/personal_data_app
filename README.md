@@ -19,3 +19,7 @@ A JavaFX desktop application to manage personal data inputs efficiently.
    git clone https://github.com/rojdaineurope/personal-data-app.git
 
 A JavaFX application for managing personal data inputs.Apache NetBeans
+
+## Screenshots
+![Personal Data App Screenshot](screenshot1.png)
+![Personal Data App Screenshot](screenshot1.png)
