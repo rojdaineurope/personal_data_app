@@ -16,6 +16,6 @@ A JavaFX desktop application to manage personal data inputs efficiently.
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/personal-data-app.git
+   git clone https://github.com/rojdaineurope/personal-data-app.git
 
-A JavaFX application for managing personal data inputs.Apacahe NetBeans
+A JavaFX application for managing personal data inputs.Apache NetBeans
